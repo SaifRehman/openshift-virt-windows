@@ -1,7 +1,7 @@
 ---
 name: "windows-test"
 url: "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Cloud/x86_64/images/Fedora-Cloud-Base-Generic.x86_64-40-1.14.qcow2"
-boot_image_size: "30Gi"
+boot_image_size: "20Gi"
 vm_cpus_cores: 1
 vm_cpus_sockets: 1
 vm_cpus_threads: 1
@@ -13,4 +13,4 @@ namespace: "default"
 data_source_name: "win11"
 storage: 21474836480
 storageClassName: "ocs-external-storagecluster-ceph-rbd"
-configmap: "sysprep-config-blush-carp-89"
+configmap: "sysprep-config-harlequin-tick-31"
